@@ -4,4 +4,7 @@
    <FileRef
       location = "group:QYObjecC/QYObjecC.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:QYObjecC/../QYAVPlayer/QYAVPlayer.xcodeproj">
+   </FileRef>
 </Workspace>

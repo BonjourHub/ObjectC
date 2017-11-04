@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "QYAVPlayer.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    QYAVPlayer *player = [[QYAVPlayer alloc] init];
+    [player test];
 }
 
 
